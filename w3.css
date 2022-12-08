@@ -10,6 +10,13 @@ html {
     box-sizing: inherit
 }
 
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform:scale(1.1);
+}
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 
